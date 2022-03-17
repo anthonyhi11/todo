@@ -1,0 +1,36 @@
+.listItem {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  list-style: circle;
+  justify-content: space-between;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.listItem > div,
+.trash,
+.checkmark {
+  margin: 5px;
+}
+
+.trash:hover {
+  cursor: pointer;
+  color: red;
+  font-size: 20px;
+}
+
+.checkmark:hover {
+  cursor: pointer;
+  color: green;
+  font-size: 20px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: green;
+}
+
+.trash {
+  text-decoration: none;
+}
